@@ -16,8 +16,10 @@ function App() {
   return (
     <div>
       <Banner>
-        <img src={logo} alt="logo-la-maison-jungle" className="lmj-logo" />
-        <h1 className="lmj-title">Jungland</h1>
+        <div className="logoBan">
+          <img src={logo} alt="logo-la-maison-jungle" className="lmj-logo" />
+          <h1 className="lmj-title">Jungland</h1>
+        </div>
       </Banner>
       <div className="lmj-layout-inner">
         <Cart cart={cart} updateCart={updateCart} />
